@@ -1,4 +1,4 @@
-# Project Title
+# Khammerson
 
 Simple overview of use/purpose.
 
@@ -10,20 +10,23 @@ An in-depth paragraph about your project and overview of use.
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* NestJS, Prisma
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* cd server
+* npm install
 
 ### Executing program
 
 * How to run the program
 * Step-by-step bullets
 ```
-code blocks for commands
+npm run start:dev
+docker-compose up -d
+npx prisma migrate dev --name "example name here"
+npx prisma db seed
+
 ```
 
 ## Help
