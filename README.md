@@ -31,9 +31,14 @@ npx prisma db seed
 
 ## Help
 
+If need generate client 
+```
+npx prisma generate
+```
+
 If change prisma.schema file withou migration need push db
 ```
-prisma db push
+npx prisma db push
 ```
 
 ## Authors
