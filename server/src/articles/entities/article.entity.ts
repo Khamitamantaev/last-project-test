@@ -2,6 +2,7 @@ import { Article } from '@prisma/client';
 import { ApiProperty } from '@nestjs/swagger';
 
 export class ArticleEntity implements Article {
+  
   @ApiProperty()
   id: number;
 
@@ -13,6 +14,9 @@ export class ArticleEntity implements Article {
 
   @ApiProperty()
   body: string;
+
+  @ApiProperty()
+  point: number;
 
   @ApiProperty()
   published: boolean;

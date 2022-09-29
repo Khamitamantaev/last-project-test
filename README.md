@@ -31,9 +31,9 @@ npx prisma db seed
 
 ## Help
 
-Any advise for common problems or issues.
+If change prisma.schema file withou migration need push db
 ```
-command to run if program contains helper info
+prisma db push
 ```
 
 ## Authors

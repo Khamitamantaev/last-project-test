@@ -10,6 +10,9 @@ export class CreateArticleDto {
   @ApiProperty()
   body: string;
 
+  @ApiProperty()
+  point: number;
+
   @ApiProperty({ required: false, default: false })
   published?: boolean = false;
 }
